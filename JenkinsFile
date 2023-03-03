@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+    stages {
+        stage('create') {
+            steps {
+               echo "create"
+            }
+        }
+        stage('install') {
+            steps {
+               echo "install"
+            }
+        }
+        stage('test') {
+            steps {
+                echo "test"
+            }
+        }
+
