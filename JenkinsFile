@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('create') {
             steps {
+               sh "python3 p.py"
                echo "create"
             }
         }
